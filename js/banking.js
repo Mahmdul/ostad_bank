@@ -25,7 +25,7 @@ const depositHandler = () => {
     const newBalanceTotal = previousBalanceTotal + newDepositAmount;
     balanceTotal.innerText = newBalanceTotal;
 
-
+    
     //    Clear deposit input field
 
     depositInput.value = ''
