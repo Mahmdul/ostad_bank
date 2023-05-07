@@ -1,4 +1,4 @@
-// Elements
+// Elements (banking.hml er input and button tag gula k select kora hoise)
 const depositButton = document.getElementById('deposit-button');
 const depositInput=document.getElementById('deposit-input');
 const depositTotal=document.getElementById('deposit-total');
@@ -12,7 +12,7 @@ const withdrawTotal = document.getElementById('withdraw-total');
 const depositHandler = () => {
     // get the amount deposited
     const newDepositAmountText = depositInput.value;
-    const newDepositAmount = parseFloat(newDepositAmountText);
+    const newDepositAmount = parseFloat(newDepositAmountText); //string k value te convert korar jonno parseFloat.
     //    update deposit total
     const previousDepositText = depositTotal.innerText;
     const previousDepositAmount = parseFloat(previousDepositText)
